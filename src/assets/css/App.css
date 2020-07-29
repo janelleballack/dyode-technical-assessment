@@ -103,3 +103,27 @@ img {
   width: 31px;
   border-radius: 2.5px;
   margin: 5px auto; }
+
+.HeroCarousel > .carousel .slide {
+  max-height: 638px; }
+
+.HeroCarousel > .carousel .control-dots {
+  margin-bottom: 12px; }
+  @media (min-width: 600px) {
+    .HeroCarousel > .carousel .control-dots {
+      margin-bottom: 34px; } }
+  .HeroCarousel > .carousel .control-dots > .dot {
+    border-radius: 0;
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+    box-shadow: none;
+    background-color: rgba(216, 216, 216, 0.7);
+    margin: 0 5px; }
+    .HeroCarousel > .carousel .control-dots > .dot.selected {
+      background-color: #FFFFFF; }
+    @media (min-width: 600px) {
+      .HeroCarousel > .carousel .control-dots > .dot {
+        width: 26px;
+        height: 26px;
+        margin: 0 10px; } }
