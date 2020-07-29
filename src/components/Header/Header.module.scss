@@ -34,3 +34,10 @@
   }
 }
 
+.Icon-Cart {
+  display: block;
+  order: 2;
+  @media (min-width: $breakpoint-small) {
+    display: none;
+  }
+}

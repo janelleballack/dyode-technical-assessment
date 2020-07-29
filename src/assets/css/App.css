@@ -61,6 +61,13 @@ img {
       width: 93px;
       order: 0; } }
 
+.Icon-Cart {
+  display: block;
+  order: 2; }
+  @media (min-width: 600px) {
+    .Icon-Cart {
+      display: none; } }
+
 .NavbarList {
   justify-content: space-evenly;
   list-style-type: none;
