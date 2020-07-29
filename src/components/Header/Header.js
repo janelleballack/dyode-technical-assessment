@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Container from '../containers/Container';
+import Container from '../../containers/Container';
 import Logo from '../../assets/img/logo.png';
 import Navbar from '../Navbar/Navbar';
 import Cart from '../../assets/img/cart.png';
