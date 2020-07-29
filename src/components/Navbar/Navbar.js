@@ -5,8 +5,8 @@ import Aux from '../../hoc/Aux';
 
 function Navbar() {
   let navLinks = ['Womens', 'Mens', 'Accessories', 'Sale!'];
-  const listItems = navLinks.map((link) =>
-    <li className="NavbarList__item">
+  const listItems = navLinks.map((link, i) =>
+    <li key={i} className="NavbarList__item">
       <a href="/">{link}</a>
     </li>
   );
