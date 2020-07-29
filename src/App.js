@@ -1,10 +1,12 @@
 import React from 'react';
-
+import '../src/assets/css/App.css';
+import Aux from './hoc/Aux';
+import Topbar from './components/Topbar/Topbar';
 function App() {
   return (
-    <div>
-      Topbar
-      Header
+    <Aux>
+      <Topbar />
+      {/* Header
       Content
         Hero Slider
         Three Up Grid
@@ -12,9 +14,9 @@ function App() {
         Hero Image
         Four Up Grid
         Subscribe Banner
-      Footer
+      Footer */}
         
-    </div>
+    </Aux>
   );
 }
 
