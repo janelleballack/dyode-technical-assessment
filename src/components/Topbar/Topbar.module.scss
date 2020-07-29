@@ -1,0 +1,26 @@
+.Topbar {
+  background: $black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 21px;
+  @media (min-width: $breakpoint-small) {
+    height: 59px;
+  }
+}
+
+.Text {
+  color: $white;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 15px;
+  text-align: center;
+  margin: 0;
+
+  @media (min-width: $breakpoint-small) {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
