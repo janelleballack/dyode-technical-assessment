@@ -4,12 +4,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 
   & > .container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    @media (min-width: $breakpoint-small) {
+      justify-content: center;
+      width: auto;
+    }
   }
-  
+
   @media (min-width: $breakpoint-small) {
     height: 94px;
   }
@@ -18,8 +26,11 @@
 .Logo {
   height: 45px;
   width: 54px;
+  order: 1;
   @media (min-width: $breakpoint-small) {
     height: 77px;
     width: 93px;
+    order: 0;
   }
 }
+

@@ -1,5 +1,8 @@
 import React from 'react';
 
+import ToggleNav from '../Navbar/ToggleNav/ToggleNav';
+import Aux from '../../hoc/Aux';
+
 function Navbar() {
   let navLinks = ['Womens', 'Mens', 'Accessories', 'Sale!'];
   const listItems = navLinks.map((link) =>
@@ -7,11 +10,15 @@ function Navbar() {
       <a href="/">{link}</a>
     </li>
   );
+  
 
   return (
-    <ul className="NavbarList">
-      {listItems}
-    </ul>
+    <Aux>
+      <ToggleNav />
+      <ul className="NavbarList">
+        {listItems}
+      </ul>
+  </Aux>
   );
 };
  

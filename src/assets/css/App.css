@@ -35,27 +35,40 @@ img {
   background-color: #10504F;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  width: 100%; }
   .Header > .container {
     display: flex;
-    align-items: center; }
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%; }
+    @media (min-width: 600px) {
+      .Header > .container {
+        justify-content: center;
+        width: auto; } }
   @media (min-width: 600px) {
     .Header {
       height: 94px; } }
 
 .Logo {
   height: 45px;
-  width: 54px; }
+  width: 54px;
+  order: 1; }
   @media (min-width: 600px) {
     .Logo {
       height: 77px;
-      width: 93px; } }
+      width: 93px;
+      order: 0; } }
 
 .NavbarList {
-  display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  margin: 0; }
+  margin: 0;
+  display: none; }
+  @media (min-width: 600px) {
+    .NavbarList {
+      display: flex; } }
 
 .NavbarList__item {
   padding: 0 34px; }
@@ -67,3 +80,19 @@ img {
     line-height: 34px;
     text-align: center;
     text-decoration: none; }
+
+.ToggleNav {
+  display: block;
+  order: 0; }
+  @media (min-width: 600px) {
+    .ToggleNav {
+      display: none; } }
+
+.Bar {
+  background: #FFFFFF;
+  display: block;
+  position: relative;
+  height: 4px;
+  width: 31px;
+  border-radius: 2.5px;
+  margin: 5px auto; }

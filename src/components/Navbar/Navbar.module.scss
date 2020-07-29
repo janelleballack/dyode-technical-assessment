@@ -1,8 +1,11 @@
 .NavbarList {
-  display: flex;
   justify-content: space-evenly;
   list-style-type: none;
   margin: 0;
+  display: none;
+  @media (min-width: $breakpoint-small) {
+    display: flex;
+  }
 }
 
 .NavbarList__item {

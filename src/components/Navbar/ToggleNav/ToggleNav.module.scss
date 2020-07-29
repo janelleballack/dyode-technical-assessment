@@ -1,0 +1,17 @@
+.ToggleNav {
+  display: block;
+  order: 0;
+  @media (min-width: $breakpoint-small) {
+    display: none;
+  }
+}
+
+.Bar {
+  background: $white;
+  display: block;
+  position: relative;
+  height: 4px;
+  width: 31px;
+  border-radius: 2.5px;
+  margin: 5px auto; 
+}
