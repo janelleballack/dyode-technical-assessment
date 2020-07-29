@@ -45,3 +45,9 @@ img {
     .Logo {
       height: 77px;
       width: 93px; } }
+
+.NavbarList {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0; }
