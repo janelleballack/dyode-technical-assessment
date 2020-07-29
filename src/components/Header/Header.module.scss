@@ -1,4 +1,19 @@
 .Header {
-  height: 94px;
+  height: 53px;
   background-color: $green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: $breakpoint-small) {
+    height: 94px;
+  }
+}
+
+.Logo {
+  height: 45px;
+  width: 54px;
+  @media (min-width: $breakpoint-small) {
+    height: 77px;
+    width: 93px;
+  }
 }
