@@ -1,6 +1,20 @@
-.NavbarList{
+.NavbarList {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
   margin: 0;
+}
+
+.NavbarList__item {
+  padding: 0 34px;
+
+  & > a {
+    color: $white;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: none;
+  }
 }

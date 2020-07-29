@@ -1,5 +1,7 @@
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: Lato;
+  font-weight: normal; }
 
 img {
   width: 100%; }
@@ -34,6 +36,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center; }
+  .Header > .container {
+    display: flex;
+    align-items: center; }
   @media (min-width: 600px) {
     .Header {
       height: 94px; } }
@@ -51,3 +56,14 @@ img {
   justify-content: space-evenly;
   list-style-type: none;
   margin: 0; }
+
+.NavbarList__item {
+  padding: 0 34px; }
+  .NavbarList__item > a {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: none; }
