@@ -1,0 +1,23 @@
+.Topbar {
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 21px; }
+  @media (min-width: 600px) {
+    .Topbar {
+      height: 59px; } }
+
+.Text {
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 15px;
+  text-align: center;
+  margin: 0; }
+  @media (min-width: 600px) {
+    .Text {
+      font-size: 26px;
+      line-height: 32px; } }
