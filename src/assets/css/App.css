@@ -127,3 +127,59 @@ img {
         width: 26px;
         height: 26px;
         margin: 0 10px; } }
+
+.TextCardInfo {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: left;
+  padding: 0 20px; }
+  @media (min-width: 600px) {
+    .TextCardInfo {
+      padding: 0 78px; } }
+
+.TextCardTitle {
+  color: #FFFFFF;
+  font-family: Pacifico;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 37px;
+  margin: 0; }
+  @media (min-width: 600px) {
+    .TextCardTitle {
+      font-size: 50px;
+      line-height: 93px; } }
+
+.TextCardTagline {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 19px;
+  margin: 0; }
+  @media (min-width: 600px) {
+    .TextCardTagline {
+      font-size: 40px;
+      line-height: 48px; } }
+
+.TextCardButton {
+  background: black;
+  color: white;
+  height: 23px;
+  width: 78px;
+  font-family: Lato;
+  font-size: 8px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  appearance: none;
+  margin-top: 20px; }
+  @media (min-width: 600px) {
+    .TextCardButton {
+      height: 50px;
+      width: 169px;
+      font-size: 20px;
+      line-height: 24px; } }
