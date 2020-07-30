@@ -1,3 +1,4 @@
+@import '../scss/base/font';
 @import '../scss/var/variables';
 @import '../scss/base/base';
 
@@ -9,3 +10,6 @@
 @import '../../components/TextCard/TextCard.module.scss';
 @import '../../components/ThreeUpGrid/ThreeUpGrid.module.scss';
 @import '../../components/GridItem/GridItem.module.scss';
+@import '../../components/ProductGrid/ProductGrid.module.scss';
+@import '../../components/ProductCarousel/ProductCarousel.module.scss';
+@import '../../components/ProductCard/ProductCard.module.scss';
