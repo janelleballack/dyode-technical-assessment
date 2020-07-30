@@ -391,3 +391,40 @@ ul {
       width: 169px;
       font-size: 20px;
       line-height: 24px; } }
+
+.ImageGrid {
+  position: relative; }
+
+.ImageGrid__title {
+  font-family: Pacifico;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 37px;
+  text-align: center;
+  margin: 25px 0 0; }
+  @media (min-width: 600px) {
+    .ImageGrid__title {
+      font-size: 35px;
+      line-height: 65px;
+      margin: 51px 0 21px; } }
+
+.ImageGrid__images {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden; }
+  @media (min-width: 600px) {
+    .ImageGrid__images {
+      flex-wrap: wrap;
+      overflow: visible; } }
+
+.ImageGrid__image {
+  width: 31%;
+  margin: 0 5px; }
+  .ImageGrid__image:first-child {
+    margin-left: 0; }
+  .ImageGrid__image:last-child {
+    margin-right: 0; }
+  @media (min-width: 600px) {
+    .ImageGrid__image {
+      width: 17%;
+      margin: 0 10px; } }

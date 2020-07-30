@@ -1,0 +1,43 @@
+.ImageGrid {
+  position: relative;
+}
+
+.ImageGrid__title {
+  font-family: Pacifico;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 37px;
+  text-align: center; 
+  margin: 25px 0 0;
+  @media (min-width: $breakpoint-small) {
+    font-size: 35px;
+    line-height: 65px;
+    margin: 51px 0 21px;
+
+  }
+}
+
+.ImageGrid__images {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  @media (min-width: $breakpoint-small) {
+    flex-wrap: wrap;
+    overflow: visible;
+  }
+}
+
+.ImageGrid__image {
+  width: 31%;
+  margin: 0 5px;
+  &:first-child {
+    margin-left: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+  @media (min-width: $breakpoint-small) {
+    width: 17%;
+    margin: 0 10px;
+  }
+}

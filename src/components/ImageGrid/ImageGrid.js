@@ -1,6 +1,6 @@
 import React from 'react'; 
 
-import Aux from '../../hoc/Aux';
+import Container from '../../containers/Container';
 const ImageGrid = () => {
   const images = [ 
     { url  :`${require("../../assets/img/social-1.jpg")}`},
@@ -11,17 +11,17 @@ const ImageGrid = () => {
   ]; 
 
   const imageItem = images.map((image, i) =>
-    <Aux key={i}><img srcSet={image.url} alt="Images" /> </Aux> 
+    <img key={i} className="ImageGrid__image" srcSet={image.url} alt="Images" /> 
   );
-
-
   return( 
-    <div className="ImageGrid">
-      <p className="ImageGrid__title ">Follow us on Instagram!</p>
-      <div className="ImageGrid__images">
-        {imageItem}
-      </div>
-    </div> 
+    <Container>
+      <div className="ImageGrid">
+        <p className="ImageGrid__title ">Follow us on Instagram!</p>
+        <div className="ImageGrid__images">
+          {imageItem}
+        </div>
+      </div> 
+    </Container>
   );
 };
 
