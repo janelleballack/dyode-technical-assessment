@@ -3,7 +3,18 @@ body {
   font-family: Lato;
   font-weight: normal;
 }
+.container {
+  padding: 0 15px;
+   @media (min-width: $breakpoint-small) {
+     padding: 0 28px;
+   }
+}
 
 img {
   width: 100%;
 }
+
+ul {
+  list-style-type: none;
+}
+

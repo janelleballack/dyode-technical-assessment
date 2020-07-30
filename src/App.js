@@ -5,6 +5,8 @@ import Topbar from './components/Topbar/Topbar';
 import Header from './components/Header/Header';
 import Content from '../src/containers/Content';
 import HeroCarousel from './components/HeroCarousel/HeroCarousel';
+import ThreeUpGrid from './components/ThreeUpGrid/ThreeUpGrid';
+
 
 function App() {
   return (
@@ -13,8 +15,9 @@ function App() {
       <Header />
        <Content>
         <HeroCarousel />
+        <ThreeUpGrid />
        </Content>
-        {/*Three Up Grid
+        {/*
         Four Up Slider
         Hero Image
         Four Up Grid

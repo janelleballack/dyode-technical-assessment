@@ -3,8 +3,17 @@ body {
   font-family: Lato;
   font-weight: normal; }
 
+.container {
+  padding: 0 15px; }
+  @media (min-width: 600px) {
+    .container {
+      padding: 0 28px; } }
+
 img {
   width: 100%; }
+
+ul {
+  list-style-type: none; }
 
 .Topbar {
   background: #000000;
@@ -183,3 +192,49 @@ img {
       width: 169px;
       font-size: 20px;
       line-height: 24px; } }
+
+.ThreeUpGrid {
+  margin-top: 30px; }
+  .ThreeUpGrid > .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row; }
+
+.GridItem {
+  margin-left: 15px;
+  position: relative;
+  flex: 0 1 47.5%; }
+  @media (min-width: 600px) {
+    .GridItem {
+      flex: 0 1 29%;
+      margin: 0 20px; } }
+  .GridItem:first-child {
+    margin-left: 0; }
+  .GridItem:last-child {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 15px;
+    flex: 0 1 100%; }
+    @media (min-width: 600px) {
+      .GridItem:last-child {
+        flex: 0 1 29%;
+        margin-top: 0;
+        margin-left: 20px; } }
+
+.GridItem__title {
+  background-color: #10504F;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Pacifico;
+  font-size: 18.96px;
+  line-height: 36px;
+  letter-spacing: 0;
+  width: 100%;
+  margin: 0; }
+  @media (min-width: 600px) {
+    .GridItem__title {
+      font-size: 50px;
+      line-height: 93px; } }
