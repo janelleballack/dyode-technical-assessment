@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import Content from '../src/containers/Content';
 import HeroCarousel from './components/HeroCarousel/HeroCarousel';
 import ThreeUpGrid from './components/ThreeUpGrid/ThreeUpGrid';
+import ProductCarousel from './components/ProductCarousel/ProductCarousel';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
        <Content>
         <HeroCarousel />
         <ThreeUpGrid />
+        <ProductCarousel />
        </Content>
         {/*
         Four Up Slider
