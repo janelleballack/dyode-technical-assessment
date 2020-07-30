@@ -1,0 +1,46 @@
+.ProductCard {
+  padding: 0 10px;
+}
+
+.ProductCard__info {
+  margin-top: 25px;
+}
+
+.ProductCard__title {
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 15px;
+  text-align: center;
+  margin: 0;
+  @media (min-width: $breakpoint-small) {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.ProductCard__description {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 15px;
+  text-align: center;
+  margin: 0;
+  @media (min-width: $breakpoint-small) {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.ProductCard__price {
+  color: $green;
+  font-family: Pacifico;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+  @media (min-width: $breakpoint-small) {
+    font-size: 22px;
+    line-height: 41px;
+  }
+}

@@ -246,13 +246,39 @@ ul {
       line-height: 93px; } }
 
 .ProductGrid {
-  margin-top: 30px;
+  margin-top: 138px;
   display: flex;
   justify-content: center;
   flex-direction: row; }
 
-.ProductCarousel > .carousel .slide {
-  background: #FFFFFF; }
+.ProductCarousel {
+  padding: 0 20px; }
+  @media (min-width: 600px) {
+    .ProductCarousel {
+      padding: 0 72px; } }
+  .ProductCarousel > .carousel .slide {
+    background: #FFFFFF; }
+  .ProductCarousel > .carousel.carousel-slider .control-arrow {
+    opacity: 1;
+    padding: 0; }
+    .ProductCarousel > .carousel.carousel-slider .control-arrow.control-next.control-arrow:before {
+      background: url("../../../src/assets/img/arrow-right.png") no-repeat;
+      height: 26px;
+      width: 23px;
+      border: none;
+      margin: 0; }
+    .ProductCarousel > .carousel.carousel-slider .control-arrow.control-prev.control-arrow:before {
+      background: url("../../../src/assets/img/arrow-left.png") no-repeat;
+      height: 26px;
+      width: 23px;
+      border: none;
+      margin: 0; }
+
+.ProductCard {
+  padding: 0 10px; }
+
+.ProductCard__info {
+  margin-top: 25px; }
 
 .ProductCard__title {
   font-size: 12px;

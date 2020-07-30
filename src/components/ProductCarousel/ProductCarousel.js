@@ -6,11 +6,11 @@ import Aux from '../../hoc/Aux';
 import ProductGrid from "../ProductGrid/ProductGrid";
 
 function ProductCarousel() {
-//   var times = 4; // or more
-//   var result = Array(times);
-//   for(var i = 0; i < times; i++){
-//     result[i] = <Aux key={i}><ProductGrid /></Aux>
-// }
+  var times = 3; // or more
+  var slides = Array(times);
+  for(var i = 0; i < times; i++){
+    slides[i] = <Aux key={i}><ProductGrid /></Aux>
+}
  
   return (
     <Carousel
@@ -18,7 +18,7 @@ function ProductCarousel() {
       showStatus={false} 
       showIndicators={false} 
       className="ProductCarousel">
-      <ProductGrid />
+      {slides}
     </Carousel>
   );
 }
