@@ -9,6 +9,8 @@ import ThreeUpGrid from './components/ThreeUpGrid/ThreeUpGrid';
 import ProductCarousel from './components/ProductCarousel/ProductCarousel';
 import Hero from './components/Hero/Hero';
 import ImageGrid from './components/ImageGrid/ImageGrid';
+import Newsletter from './components/Newsletter/Newsletter';
+
 
 
 function App() {
@@ -22,10 +24,11 @@ function App() {
         <ProductCarousel />
         <Hero />
         <ImageGrid />
+        <Newsletter />
        </Content>
         {/*
         
-        Subscribe Banner
+        
       Footer */}
         
     </Aux>
