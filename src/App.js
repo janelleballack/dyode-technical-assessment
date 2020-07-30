@@ -8,6 +8,7 @@ import HeroCarousel from './components/HeroCarousel/HeroCarousel';
 import ThreeUpGrid from './components/ThreeUpGrid/ThreeUpGrid';
 import ProductCarousel from './components/ProductCarousel/ProductCarousel';
 import Hero from './components/Hero/Hero';
+import ImageGrid from './components/ImageGrid/ImageGrid';
 
 
 function App() {
@@ -20,10 +21,10 @@ function App() {
         <ThreeUpGrid />
         <ProductCarousel />
         <Hero />
+        <ImageGrid />
        </Content>
         {/*
         
-        Four Up Grid
         Subscribe Banner
       Footer */}
         
