@@ -26,3 +26,18 @@
     }
   }
 }
+
+.ProductCarousel__title {
+  font-family: Pacifico;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 37px;
+  text-align: center;
+  margin-top: 25px;
+
+  @media (min-width: $breakpoint-small) {
+    font-size: 35px;
+    line-height: 65px;
+     margin-top: 138px;
+  }
+}

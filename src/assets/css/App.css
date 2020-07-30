@@ -246,7 +246,6 @@ ul {
       line-height: 93px; } }
 
 .ProductGrid {
-  margin-top: 138px;
   display: flex;
   justify-content: center;
   flex-direction: row; }
@@ -273,6 +272,19 @@ ul {
       width: 23px;
       border: none;
       margin: 0; }
+
+.ProductCarousel__title {
+  font-family: Pacifico;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 37px;
+  text-align: center;
+  margin-top: 25px; }
+  @media (min-width: 600px) {
+    .ProductCarousel__title {
+      font-size: 35px;
+      line-height: 65px;
+      margin-top: 138px; } }
 
 .ProductCard {
   padding: 0 10px; }
