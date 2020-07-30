@@ -327,3 +327,67 @@ ul {
     .ProductCard__price {
       font-size: 22px;
       line-height: 41px; } }
+
+.Hero {
+  position: relative;
+  margin-top: 16px; }
+  @media (min-width: 600px) {
+    .Hero {
+      margin-top: 40px; } }
+
+.HeroInfo {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  text-align: left;
+  padding: 0 20px; }
+  @media (min-width: 600px) {
+    .HeroInfo {
+      padding: 0 78px; } }
+
+.HeroTitle {
+  color: #FFFFFF;
+  font-family: Pacifico;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 37px;
+  margin: 0; }
+  @media (min-width: 600px) {
+    .HeroTitle {
+      font-size: 50px;
+      line-height: 93px; } }
+
+.HeroTagline {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 19px;
+  margin: 0; }
+  @media (min-width: 600px) {
+    .HeroTagline {
+      font-size: 40px;
+      line-height: 48px; } }
+
+.HeroButton {
+  background: #10504F;
+  color: white;
+  height: 23px;
+  width: 78px;
+  font-family: Lato;
+  font-size: 8px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  appearance: none;
+  margin-top: 20px; }
+  @media (min-width: 600px) {
+    .HeroButton {
+      height: 50px;
+      width: 169px;
+      font-size: 20px;
+      line-height: 24px; } }
