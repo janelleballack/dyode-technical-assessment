@@ -17,8 +17,7 @@ const [productState] = useState(
     <Aux key={i}><ProductCard title={item.title} description={item.description} price={item.price} url={item.url}/></Aux> 
   );
 
-  var widthSize = window.matchMedia( "(min-width: 600px)" );
-  var times = widthSize.matches ? 4 : 2; // or more
+  var times = 4; // or more
   var result = Array(times);
   for(var i = 0; i < times; i++){
     result[i] = <Aux key={i}>{productItem}</Aux>

@@ -24,10 +24,8 @@
 
 .ImageGrid__images {
   display: flex;
-  flex-wrap: nowrap;
   overflow: hidden;
   @media (min-width: $breakpoint-small) {
-    flex-wrap: wrap;
     overflow: visible;
   }
 }

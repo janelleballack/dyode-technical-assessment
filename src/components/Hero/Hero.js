@@ -2,7 +2,6 @@ import React from 'react'
 
 import HeroImage from '../../assets/img/hero-image-2.jpg';
 import HeroImageMobile from '../../assets/img/hero-image-2-mobile.jpg';
-import Aux from '../../hoc/Aux';
 
 const Hero = () => (
   <div className="Hero">
