@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e1afdc80189c38b529a4c6fd207b154",
+    "revision": "6dfe429e5b7f3e1668bade214bfff2ad",
     "url": "/dyode-technical-assessment/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dyode-technical-assessment/static/css/2.cbfc4147.chunk.css"
   },
   {
-    "revision": "910ac07f254050531878",
-    "url": "/dyode-technical-assessment/static/css/main.f77104e6.chunk.css"
+    "revision": "0ec12cd7b93eafd82b58",
+    "url": "/dyode-technical-assessment/static/css/main.91168daf.chunk.css"
   },
   {
     "revision": "809ebe922b9a4d0fdd36",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dyode-technical-assessment/static/js/2.59f3092d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "910ac07f254050531878",
+    "revision": "0ec12cd7b93eafd82b58",
     "url": "/dyode-technical-assessment/static/js/main.576f5406.chunk.js"
   },
   {
