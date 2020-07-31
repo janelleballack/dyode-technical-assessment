@@ -10,8 +10,7 @@ import ProductCarousel from './components/ProductCarousel/ProductCarousel';
 import Hero from './components/Hero/Hero';
 import ImageGrid from './components/ImageGrid/ImageGrid';
 import Newsletter from './components/Newsletter/Newsletter';
-
-
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -26,11 +25,7 @@ function App() {
         <ImageGrid />
         <Newsletter />
        </Content>
-        {/*
-        
-        
-      Footer */}
-        
+       <Footer />
     </Aux>
   );
 }

@@ -1,0 +1,28 @@
+.Social {
+  margin: 0;
+}
+
+.Social__title {
+  color: $white;
+  font-family: Pacifico;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 37px;
+  margin: 0 0 10px;
+  @media (min-width: $breakpoint-small) {
+    font-size: 18px;
+    line-height: 33px
+  }
+}
+
+.Social__images {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Social__image {
+  margin-right: 18px;
+}

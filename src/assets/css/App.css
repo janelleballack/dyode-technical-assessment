@@ -545,3 +545,31 @@ ul {
       border: 3.84px solid #FFFFFF;
       font-size: 20px;
       line-height: 37px; } }
+
+.Footer {
+  background: #000000; }
+
+.Social {
+  margin: 0; }
+
+.Social__title {
+  color: #FFFFFF;
+  font-family: Pacifico;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 37px;
+  margin: 0 0 10px; }
+  @media (min-width: 600px) {
+    .Social__title {
+      font-size: 18px;
+      line-height: 33px; } }
+
+.Social__images {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0; }
+
+.Social__image {
+  margin-right: 18px; }

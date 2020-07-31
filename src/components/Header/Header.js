@@ -6,7 +6,7 @@ import Navbar from '../Navbar/Navbar';
 import Cart from '../../assets/img/cart.png';
 
 const header = () => (
-  <div className='Header'>
+  <header className="Header">
     <Container>
       <div className="Logo">
         <img src={Logo} alt="Logo"/>
@@ -16,7 +16,7 @@ const header = () => (
         <img src={Cart} alt="cart"/>
       </div>
     </Container>
-  </div>
+  </header>
 );
 
 export default header;
