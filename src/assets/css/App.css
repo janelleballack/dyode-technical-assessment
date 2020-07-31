@@ -14,14 +14,14 @@ body {
   letter-spacing: 0;
   line-height: 10px;
   padding-left: 11px; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     ::placeholder {
       font-size: 16px;
       line-height: 19px; } }
 
 .container {
   padding: 0 15px; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .container {
       padding: 0 28px; } }
 
@@ -45,7 +45,7 @@ ul {
   justify-content: center;
   align-items: center;
   height: 21px; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .Topbar {
       height: 59px; } }
 
@@ -58,7 +58,7 @@ ul {
   line-height: 15px;
   text-align: center;
   margin: 0; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .Text {
       font-size: 26px;
       line-height: 32px; } }
@@ -76,11 +76,11 @@ ul {
     align-items: center;
     padding: 0 20px;
     width: 100%; }
-    @media (min-width: 900px) {
+    @media (min-width: 768px) {
       .Header > .container {
         justify-content: center;
         width: auto; } }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .Header {
       height: 94px; } }
 
@@ -88,7 +88,7 @@ ul {
   height: 45px;
   width: 54px;
   order: 1; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .Logo {
       height: 77px;
       width: 93px;
@@ -97,7 +97,7 @@ ul {
 .Icon-Cart {
   display: block;
   order: 2; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .Icon-Cart {
       display: none; } }
 
@@ -111,7 +111,7 @@ ul {
   transform: translateY(75px);
   z-index: 1;
   padding: 22px 0; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .NavbarList {
       display: flex !important;
       position: relative;
@@ -129,7 +129,7 @@ ul {
     line-height: 15px;
     text-align: center;
     text-decoration: none; }
-    @media (min-width: 900px) {
+    @media (min-width: 768px) {
       .NavbarList__item > a {
         color: #FFFFFF;
         font-size: 28px;
@@ -138,7 +138,7 @@ ul {
 .ToggleNav {
   display: block;
   order: 0; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .ToggleNav {
       display: none; } }
 
@@ -156,7 +156,7 @@ ul {
 
 .HeroCarousel > .carousel .control-dots {
   margin-bottom: 12px; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .HeroCarousel > .carousel .control-dots {
       margin-bottom: 34px; } }
   .HeroCarousel > .carousel .control-dots > .dot {
@@ -169,7 +169,7 @@ ul {
     margin: 0 5px; }
     .HeroCarousel > .carousel .control-dots > .dot.selected {
       background-color: #FFFFFF; }
-    @media (min-width: 900px) {
+    @media (min-width: 768px) {
       .HeroCarousel > .carousel .control-dots > .dot {
         width: 26px;
         height: 26px;
@@ -181,7 +181,7 @@ ul {
   transform: translate(0, -50%);
   text-align: left;
   padding: 0 20px; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .TextCardInfo {
       padding: 0 78px; } }
 
@@ -192,7 +192,7 @@ ul {
   letter-spacing: 0;
   line-height: 37px;
   margin: 0; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .TextCardTitle {
       font-size: 50px;
       line-height: 93px; } }
@@ -204,7 +204,7 @@ ul {
   letter-spacing: 0;
   line-height: 19px;
   margin: 0; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .TextCardTagline {
       font-size: 40px;
       line-height: 48px; } }
@@ -224,7 +224,7 @@ ul {
   border: none;
   appearance: none;
   margin-top: 20px; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .TextCardButton {
       height: 50px;
       width: 169px;
@@ -238,7 +238,7 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row; }
-    @media (min-width: 900px) {
+    @media (min-width: 768px) {
       .ThreeUpGrid > .container {
         flex-wrap: nowrap; } }
 
@@ -246,7 +246,7 @@ ul {
   margin-left: 15px;
   position: relative;
   flex: 0 1 47.5%; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .GridItem {
       flex: inherit;
       margin: 0 20px; } }
@@ -257,7 +257,7 @@ ul {
     margin-right: 0;
     margin-top: 15px;
     flex: 0 1 100%; }
-    @media (min-width: 900px) {
+    @media (min-width: 768px) {
       .GridItem:last-child {
         flex: inherit;
         margin-top: 0;
@@ -275,7 +275,7 @@ ul {
   letter-spacing: 0;
   width: 100%;
   margin: 0; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .GridItem__title {
       font-size: 50px;
       line-height: 93px; } }
@@ -287,7 +287,7 @@ ul {
 
 .ProductCarousel > .container {
   padding: 0 20px; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .ProductCarousel > .container {
       padding: 0 72px; } }
 
@@ -298,7 +298,7 @@ ul {
   line-height: 37px;
   text-align: center;
   margin-top: 25px; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .ProductCarousel__title {
       font-size: 35px;
       line-height: 65px;
@@ -309,7 +309,7 @@ ul {
   width: 13px;
   height: 15px;
   z-index: 1; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .slick-slider .slick-next,
     .slick-slider .slick-prev {
       width: 23px;
@@ -331,7 +331,7 @@ ul {
   min-width: 150px;
   padding: 0;
   margin: auto; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .ProductCard {
       margin: auto;
       max-width: 267px; } }
@@ -345,7 +345,7 @@ ul {
   line-height: 15px;
   text-align: center;
   margin: 0; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .ProductCard__title {
       font-size: 16px;
       line-height: 19px; } }
@@ -357,7 +357,7 @@ ul {
   line-height: 15px;
   text-align: center;
   margin: 0; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .ProductCard__description {
       font-size: 16px;
       line-height: 19px; } }
@@ -370,7 +370,7 @@ ul {
   line-height: 30px;
   text-align: center;
   margin: 0; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .ProductCard__price {
       font-size: 22px;
       line-height: 41px; } }
@@ -378,7 +378,7 @@ ul {
 .Hero {
   position: relative;
   margin-top: 16px; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .Hero {
       margin-top: 40px; } }
 
@@ -389,7 +389,7 @@ ul {
   transform: translate(0, -50%);
   text-align: left;
   padding: 0 20px; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .HeroInfo {
       padding: 0 78px; } }
 
@@ -400,7 +400,7 @@ ul {
   letter-spacing: 0;
   line-height: 37px;
   margin: 0; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .HeroTitle {
       font-size: 50px;
       line-height: 93px; } }
@@ -412,7 +412,7 @@ ul {
   letter-spacing: 0;
   line-height: 19px;
   margin: 0; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .HeroTagline {
       font-size: 40px;
       line-height: 48px; } }
@@ -432,7 +432,7 @@ ul {
   border: none;
   appearance: none;
   margin-top: 20px; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .HeroButton {
       height: 50px;
       width: 169px;
@@ -441,7 +441,7 @@ ul {
 
 .ImageGrid {
   position: relative; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .ImageGrid > .container {
       padding: 0 60px; } }
 
@@ -452,7 +452,7 @@ ul {
   line-height: 37px;
   text-align: center;
   margin: 25px 0 0; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .ImageGrid__title {
       font-size: 35px;
       line-height: 65px;
@@ -461,7 +461,7 @@ ul {
 .ImageGrid__images {
   display: flex;
   overflow: hidden; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .ImageGrid__images {
       overflow: visible; } }
 
@@ -472,7 +472,7 @@ ul {
     margin-left: 0; }
   .ImageGrid__image:last-child {
     margin-right: 0; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .ImageGrid__image {
       width: 18.76%;
       max-width: 248px;
@@ -488,7 +488,7 @@ ul {
     align-items: center;
     flex-direction: column;
     margin: 0; }
-    @media (min-width: 900px) {
+    @media (min-width: 768px) {
       .Newsletter > .container {
         flex-direction: row;
         padding: 0 154px 83px; } }
@@ -497,7 +497,7 @@ ul {
   height: 17px;
   width: 17px;
   margin-top: 16px; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .Newsletter__icon {
       height: 36px;
       width: 36px;
@@ -516,7 +516,7 @@ ul {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .Newsletter__title {
       font-size: 35px;
       line-height: 65px;
@@ -527,7 +527,7 @@ ul {
   width: 100%;
   margin: 12px 0 25px;
   text-align: center; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .Newsletter__form {
       display: flex;
       justify-content: center;
@@ -542,7 +542,7 @@ ul {
   text-align: center;
   margin: 0 0 15px;
   padding: 0 20px; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .Newsletter__description {
       font-size: 20px;
       text-align: left;
@@ -558,7 +558,7 @@ ul {
   border: none;
   margin-right: 5px;
   padding: 0; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .Newsletter__input {
       height: 44px;
       width: 100%;
@@ -576,7 +576,7 @@ ul {
   letter-spacing: 0;
   line-height: 19px;
   text-align: center; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .Newsletter__submitBtn {
       height: 44px;
       width: 50%;
@@ -592,7 +592,7 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 25px 49px; }
-    @media (min-width: 900px) {
+    @media (min-width: 768px) {
       .Footer > .container {
         flex-direction: row;
         padding: 25px 49px 42px; } }
@@ -606,7 +606,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: flex-end; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .Footer__section-title {
       font-size: 18px;
       line-height: 33px; } }
@@ -616,16 +616,16 @@ ul {
   font-weight: 300;
   letter-spacing: 0;
   line-height: 19px; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .Footer__menu {
       display: block !important;
       line-height: 30px; } }
 
-@media (min-width: 900px) {
+@media (min-width: 768px) {
   .Footer__section {
     flex: 0 0 18.25%; } }
 
-@media (min-width: 900px) {
+@media (min-width: 768px) {
   .Footer__section.Footer__section-social {
     flex: 0 0 63.25%;
     display: flex;
@@ -639,7 +639,7 @@ ul {
   line-height: 41px;
   text-align: center;
   cursor: pointer; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .Icon {
       display: none; } }
 
@@ -653,7 +653,7 @@ ul {
   letter-spacing: 0;
   line-height: 37px;
   margin: 0 0 10px; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .Social__title {
       font-size: 18px;
       line-height: 33px; } }
