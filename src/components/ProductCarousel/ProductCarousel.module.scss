@@ -1,30 +1,11 @@
 .ProductCarousel{
-  padding: 0 20px;
-  @media (min-width: $breakpoint-small) {
-    padding: 0 72px;
-  }
-  & > .carousel .slide {
-    background: $white;
-  }
-
-  & > .carousel.carousel-slider .control-arrow {
-    opacity: 1;
-    padding: 0;
-    &.control-next.control-arrow:before {
-      background: url('../../../src/assets/img/arrow-right.png') no-repeat;
-      height: 26px;
-      width: 23px;
-      border: none;
-      margin: 0;
-    }
-    &.control-prev.control-arrow:before {
-      background: url('../../../src/assets/img/arrow-left.png') no-repeat;
-      height: 26px;
-      width: 23px;
-      border: none;
-      margin: 0;
+  & > .container {
+     padding: 0 20px;
+    @media (min-width: $breakpoint-small) {
+      padding: 0 72px;
     }
   }
+  
 }
 
 .ProductCarousel__title {
@@ -40,4 +21,26 @@
     line-height: 65px;
      margin-top: 138px;
   }
+}
+
+.slick-slider .slick-next,
+ .slick-slider .slick-prev {
+    width: 13px;
+    height: 15px;
+    z-index: 1;
+    @media (min-width: $breakpoint-small) {
+      width: 23px;
+      height: 26px;
+    }
+    &::before {
+      display: none;
+    }
+  }
+
+.slick-slider .slick-next {
+  right: 0;
+}
+
+.slick-slider .slick-prev {
+  left: 0;
 }
