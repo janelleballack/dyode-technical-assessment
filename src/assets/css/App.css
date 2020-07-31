@@ -453,7 +453,7 @@ ul {
       overflow: visible; } }
 
 .ImageGrid__image {
-  width: 31%;
+  width: 32%;
   margin: 0 5px; }
   .ImageGrid__image:first-child {
     margin-left: 0; }
@@ -582,7 +582,7 @@ ul {
     @media (min-width: 600px) {
       .Footer > .container {
         flex-direction: row;
-        padding: 55px 60px; } }
+        padding: 25px 49px 42px; } }
 
 .Footer__section-title {
   font-family: Pacifico;
