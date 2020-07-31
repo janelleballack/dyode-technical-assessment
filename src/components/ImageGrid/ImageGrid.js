@@ -14,14 +14,14 @@ const ImageGrid = () => {
     <img key={i} className="ImageGrid__image" srcSet={image.url} alt="Images" /> 
   );
   return( 
-    <Container>
-      <div className="ImageGrid">
+    <div className="ImageGrid">
+      <Container>
         <p className="ImageGrid__title ">Follow us on Instagram!</p>
         <div className="ImageGrid__images">
           {imageItem}
         </div>
-      </div> 
-    </Container>
+      </Container>
+    </div> 
   );
 };
 

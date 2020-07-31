@@ -1,5 +1,10 @@
 .ImageGrid {
   position: relative;
+  & > .container {
+    @media (min-width: $breakpoint-small) {
+      padding: 0 60px;
+    }
+  }
 }
 
 .ImageGrid__title {
@@ -37,7 +42,8 @@
     margin-right: 0;
   }
   @media (min-width: $breakpoint-small) {
-    width: 17%;
+    width: 18.76%;
+    max-width: 248px;
     margin: 0 10px;
   }
 }
