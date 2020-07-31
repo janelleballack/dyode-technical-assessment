@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0dd2f1efdf81b93e777792d9d1b237c",
+    "revision": "4cd009e69b4b4dc00e6defcd25fbf8e0",
     "url": "/dyode-technical-assessment/index.html"
   },
   {
-    "revision": "687271c47c76d99e1164",
-    "url": "/dyode-technical-assessment/static/css/2.fb346933.chunk.css"
+    "revision": "809ebe922b9a4d0fdd36",
+    "url": "/dyode-technical-assessment/static/css/2.cbfc4147.chunk.css"
   },
   {
-    "revision": "1f022c9d115c8d0cc82c",
-    "url": "/dyode-technical-assessment/static/css/main.8c774042.chunk.css"
+    "revision": "e94feb95bfc97fe1d982",
+    "url": "/dyode-technical-assessment/static/css/main.11f38dae.chunk.css"
   },
   {
-    "revision": "687271c47c76d99e1164",
-    "url": "/dyode-technical-assessment/static/js/2.2ca6d45a.chunk.js"
+    "revision": "809ebe922b9a4d0fdd36",
+    "url": "/dyode-technical-assessment/static/js/2.59f3092d.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/dyode-technical-assessment/static/js/2.2ca6d45a.chunk.js.LICENSE.txt"
+    "url": "/dyode-technical-assessment/static/js/2.59f3092d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1f022c9d115c8d0cc82c",
-    "url": "/dyode-technical-assessment/static/js/main.e85e39af.chunk.js"
+    "revision": "e94feb95bfc97fe1d982",
+    "url": "/dyode-technical-assessment/static/js/main.54cf2b80.chunk.js"
   },
   {
     "revision": "50c546c140efc7448682",
@@ -58,6 +58,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "73b1f38046430359a7f7944ff6c23c51",
     "url": "/dyode-technical-assessment/static/media/product-image-1.73b1f380.jpg"
+  },
+  {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/dyode-technical-assessment/static/media/slick.b7c9e1e4.woff"
+  },
+  {
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/dyode-technical-assessment/static/media/slick.ced611da.eot"
+  },
+  {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/dyode-technical-assessment/static/media/slick.d41f55a7.ttf"
+  },
+  {
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/dyode-technical-assessment/static/media/slick.f97e3bbf.svg"
   },
   {
     "revision": "2637bbe60385449e43773f59f6ba6eec",

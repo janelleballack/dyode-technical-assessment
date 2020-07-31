@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/dyode-technical-assessment/static/css/main.8c774042.chunk.css",
-    "main.js": "/dyode-technical-assessment/static/js/main.e85e39af.chunk.js",
-    "main.js.map": "/dyode-technical-assessment/static/js/main.e85e39af.chunk.js.map",
+    "main.css": "/dyode-technical-assessment/static/css/main.11f38dae.chunk.css",
+    "main.js": "/dyode-technical-assessment/static/js/main.54cf2b80.chunk.js",
+    "main.js.map": "/dyode-technical-assessment/static/js/main.54cf2b80.chunk.js.map",
     "runtime-main.js": "/dyode-technical-assessment/static/js/runtime-main.e84e8236.js",
     "runtime-main.js.map": "/dyode-technical-assessment/static/js/runtime-main.e84e8236.js.map",
-    "static/css/2.fb346933.chunk.css": "/dyode-technical-assessment/static/css/2.fb346933.chunk.css",
-    "static/js/2.2ca6d45a.chunk.js": "/dyode-technical-assessment/static/js/2.2ca6d45a.chunk.js",
-    "static/js/2.2ca6d45a.chunk.js.map": "/dyode-technical-assessment/static/js/2.2ca6d45a.chunk.js.map",
+    "static/css/2.cbfc4147.chunk.css": "/dyode-technical-assessment/static/css/2.cbfc4147.chunk.css",
+    "static/js/2.59f3092d.chunk.js": "/dyode-technical-assessment/static/js/2.59f3092d.chunk.js",
+    "static/js/2.59f3092d.chunk.js.map": "/dyode-technical-assessment/static/js/2.59f3092d.chunk.js.map",
     "index.html": "/dyode-technical-assessment/index.html",
-    "precache-manifest.925397392dd4d8c0ca58e1f190b0d130.js": "/dyode-technical-assessment/precache-manifest.925397392dd4d8c0ca58e1f190b0d130.js",
+    "precache-manifest.adbdfd34e9c29f13f5f9ea0706d1f3f9.js": "/dyode-technical-assessment/precache-manifest.adbdfd34e9c29f13f5f9ea0706d1f3f9.js",
     "service-worker.js": "/dyode-technical-assessment/service-worker.js",
-    "static/css/2.fb346933.chunk.css.map": "/dyode-technical-assessment/static/css/2.fb346933.chunk.css.map",
-    "static/css/main.8c774042.chunk.css.map": "/dyode-technical-assessment/static/css/main.8c774042.chunk.css.map",
-    "static/js/2.2ca6d45a.chunk.js.LICENSE.txt": "/dyode-technical-assessment/static/js/2.2ca6d45a.chunk.js.LICENSE.txt",
+    "static/css/2.cbfc4147.chunk.css.map": "/dyode-technical-assessment/static/css/2.cbfc4147.chunk.css.map",
+    "static/css/main.11f38dae.chunk.css.map": "/dyode-technical-assessment/static/css/main.11f38dae.chunk.css.map",
+    "static/js/2.59f3092d.chunk.js.LICENSE.txt": "/dyode-technical-assessment/static/js/2.59f3092d.chunk.js.LICENSE.txt",
     "static/media/accessories-image-mobile.jpg": "/dyode-technical-assessment/static/media/accessories-image-mobile.b281bf6b.jpg",
     "static/media/accessories-image.jpg": "/dyode-technical-assessment/static/media/accessories-image.3181decb.jpg",
     "static/media/hero-image-1-mobile.jpg": "/dyode-technical-assessment/static/media/hero-image-1-mobile.79e861a6.jpg",
@@ -22,6 +22,7 @@
     "static/media/hero-image-2.jpg": "/dyode-technical-assessment/static/media/hero-image-2.3adcc50f.jpg",
     "static/media/mens-image.jpg": "/dyode-technical-assessment/static/media/mens-image.21572e50.jpg",
     "static/media/product-image-1.jpg": "/dyode-technical-assessment/static/media/product-image-1.73b1f380.jpg",
+    "static/media/slick-theme.css": "/dyode-technical-assessment/static/media/slick.f97e3bbf.svg",
     "static/media/social-1.jpg": "/dyode-technical-assessment/static/media/social-1.2637bbe6.jpg",
     "static/media/social-2.jpg": "/dyode-technical-assessment/static/media/social-2.a79eb988.jpg",
     "static/media/social-3.jpg": "/dyode-technical-assessment/static/media/social-3.4f51799f.jpg",
@@ -31,9 +32,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e84e8236.js",
-    "static/css/2.fb346933.chunk.css",
-    "static/js/2.2ca6d45a.chunk.js",
-    "static/css/main.8c774042.chunk.css",
-    "static/js/main.e85e39af.chunk.js"
+    "static/css/2.cbfc4147.chunk.css",
+    "static/js/2.59f3092d.chunk.js",
+    "static/css/main.11f38dae.chunk.css",
+    "static/js/main.54cf2b80.chunk.js"
   ]
 }
