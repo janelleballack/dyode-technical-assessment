@@ -6,7 +6,7 @@ const card = (props) => {
   return( 
     <div className="GridItem">
       <picture>
-        {mobile ? (<source srcSet={props.mobile} media="(max-width: 600px)" />) : 
+        {mobile ? (<source srcSet={props.mobile} media="(max-width: 768px)" />) : 
         (<source srcSet={props.url} />)}
         <img srcSet={props.url} alt="Images" />  
       </picture>
