@@ -3,7 +3,7 @@
     position: relative;
     flex: 0 1 47.5%;
     @media (min-width: $breakpoint-small) {
-      flex: 0 1 29%;
+      flex: inherit;
       margin: 0 20px;
     }
   &:first-child {
@@ -15,7 +15,7 @@
     margin-top: 15px;
     flex: 0 1 100%;
     @media (min-width: $breakpoint-small) {
-      flex: 0 1 29%;
+      flex: inherit;
       margin-top: 0;
       margin-left: 20px;
     }

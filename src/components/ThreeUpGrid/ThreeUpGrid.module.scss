@@ -5,5 +5,8 @@
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
+    @media (min-width: $breakpoint-small) {
+      flex-wrap: nowrap;
+    }
   }
 }
