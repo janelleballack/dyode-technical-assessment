@@ -29,7 +29,15 @@ img {
   width: 100%; }
 
 ul {
-  list-style-type: none; }
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.hide {
+  display: none; }
+
+.show {
+  display: block; }
 
 .Topbar {
   background: #000000;
@@ -404,6 +412,9 @@ ul {
 
 .ImageGrid {
   position: relative; }
+  @media (min-width: 600px) {
+    .ImageGrid > .container {
+      padding: 0 60px; } }
 
 .ImageGrid__title {
   font-family: Pacifico;
@@ -436,7 +447,8 @@ ul {
     margin-right: 0; }
   @media (min-width: 600px) {
     .ImageGrid__image {
-      width: 17%;
+      width: 18.76%;
+      max-width: 248px;
       margin: 0 10px; } }
 
 .Newsletter {
@@ -547,7 +559,62 @@ ul {
       line-height: 37px; } }
 
 .Footer {
-  background: #000000; }
+  background: #000000;
+  color: #FFFFFF; }
+  .Footer > .container {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 49px; }
+    @media (min-width: 600px) {
+      .Footer > .container {
+        flex-direction: row;
+        padding: 55px 60px; } }
+
+.Footer__section-title {
+  font-family: Pacifico;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 37px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; }
+  @media (min-width: 600px) {
+    .Footer__section-title {
+      font-size: 18px;
+      line-height: 33px; } }
+
+.Footer__menu {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 19px; }
+  @media (min-width: 600px) {
+    .Footer__menu {
+      display: block !important;
+      line-height: 30px; } }
+
+@media (min-width: 600px) {
+  .Footer__section {
+    flex: 0 0 18.25%; } }
+
+@media (min-width: 600px) {
+  .Footer__section.Footer__section-social {
+    flex: 0 0 63.25%;
+    display: flex;
+    justify-content: flex-end; } }
+
+.Icon {
+  color: #FFFFFF;
+  font-family: Pacifico;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 41px;
+  text-align: center;
+  cursor: pointer; }
+  @media (min-width: 600px) {
+    .Icon {
+      display: none; } }
 
 .Social {
   margin: 0; }
@@ -573,3 +640,5 @@ ul {
 
 .Social__image {
   margin-right: 18px; }
+  .Social__image:last-child {
+    margin-right: 0; }

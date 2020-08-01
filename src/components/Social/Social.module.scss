@@ -25,4 +25,7 @@
 
 .Social__image {
   margin-right: 18px;
+  &:last-child {
+    margin-right: 0;
+  }
 }
