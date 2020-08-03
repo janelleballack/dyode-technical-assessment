@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6dfe429e5b7f3e1668bade214bfff2ad",
+    "revision": "e1bb9bbe2a0b869a91ecc5323f096db8",
     "url": "/dyode-technical-assessment/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dyode-technical-assessment/static/css/2.cbfc4147.chunk.css"
   },
   {
-    "revision": "0ec12cd7b93eafd82b58",
-    "url": "/dyode-technical-assessment/static/css/main.91168daf.chunk.css"
+    "revision": "8c5feb319acbc1d1733f",
+    "url": "/dyode-technical-assessment/static/css/main.31952c39.chunk.css"
   },
   {
     "revision": "809ebe922b9a4d0fdd36",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dyode-technical-assessment/static/js/2.59f3092d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0ec12cd7b93eafd82b58",
+    "revision": "8c5feb319acbc1d1733f",
     "url": "/dyode-technical-assessment/static/js/main.576f5406.chunk.js"
   },
   {
@@ -54,6 +54,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21572e5076f2d4821b58740fa90d58b1",
     "url": "/dyode-technical-assessment/static/media/mens-image.21572e50.jpg"
+  },
+  {
+    "revision": "23b3b8b91cc1d1a202a1996675ec7142",
+    "url": "/dyode-technical-assessment/static/media/pacifico-webfont.23b3b8b9.woff2"
+  },
+  {
+    "revision": "3e1f4fc646a1d029f88db1feea1dcff8",
+    "url": "/dyode-technical-assessment/static/media/pacifico-webfont.3e1f4fc6.svg"
+  },
+  {
+    "revision": "541918a7070bf022dc48ace6de3ac839",
+    "url": "/dyode-technical-assessment/static/media/pacifico-webfont.541918a7.woff"
+  },
+  {
+    "revision": "ba6f1c0660085a6616a2c0e4328f833e",
+    "url": "/dyode-technical-assessment/static/media/pacifico-webfont.ba6f1c06.ttf"
+  },
+  {
+    "revision": "befe35bc1c6532239f6cf7c147e6b929",
+    "url": "/dyode-technical-assessment/static/media/pacifico-webfont.befe35bc.eot"
   },
   {
     "revision": "73b1f38046430359a7f7944ff6c23c51",

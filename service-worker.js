@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dyode-technical-assessment/precache-manifest.d3f0d09c1fb58cbbf6e5c08987b7ed81.js"
+  "/dyode-technical-assessment/precache-manifest.094dd88ba007055880b4f3f664a78a3c.js"
 );
 
 self.addEventListener('message', (event) => {

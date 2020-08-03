@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dyode-technical-assessment/static/css/main.91168daf.chunk.css",
+    "main.css": "/dyode-technical-assessment/static/css/main.31952c39.chunk.css",
     "main.js": "/dyode-technical-assessment/static/js/main.576f5406.chunk.js",
     "main.js.map": "/dyode-technical-assessment/static/js/main.576f5406.chunk.js.map",
     "runtime-main.js": "/dyode-technical-assessment/static/js/runtime-main.e84e8236.js",
@@ -9,10 +9,10 @@
     "static/js/2.59f3092d.chunk.js": "/dyode-technical-assessment/static/js/2.59f3092d.chunk.js",
     "static/js/2.59f3092d.chunk.js.map": "/dyode-technical-assessment/static/js/2.59f3092d.chunk.js.map",
     "index.html": "/dyode-technical-assessment/index.html",
-    "precache-manifest.d3f0d09c1fb58cbbf6e5c08987b7ed81.js": "/dyode-technical-assessment/precache-manifest.d3f0d09c1fb58cbbf6e5c08987b7ed81.js",
+    "precache-manifest.094dd88ba007055880b4f3f664a78a3c.js": "/dyode-technical-assessment/precache-manifest.094dd88ba007055880b4f3f664a78a3c.js",
     "service-worker.js": "/dyode-technical-assessment/service-worker.js",
     "static/css/2.cbfc4147.chunk.css.map": "/dyode-technical-assessment/static/css/2.cbfc4147.chunk.css.map",
-    "static/css/main.91168daf.chunk.css.map": "/dyode-technical-assessment/static/css/main.91168daf.chunk.css.map",
+    "static/css/main.31952c39.chunk.css.map": "/dyode-technical-assessment/static/css/main.31952c39.chunk.css.map",
     "static/js/2.59f3092d.chunk.js.LICENSE.txt": "/dyode-technical-assessment/static/js/2.59f3092d.chunk.js.LICENSE.txt",
     "static/media/accessories-image-mobile.jpg": "/dyode-technical-assessment/static/media/accessories-image-mobile.b281bf6b.jpg",
     "static/media/accessories-image.jpg": "/dyode-technical-assessment/static/media/accessories-image.3181decb.jpg",
@@ -21,6 +21,7 @@
     "static/media/hero-image-2-mobile.jpg": "/dyode-technical-assessment/static/media/hero-image-2-mobile.cfaec045.jpg",
     "static/media/hero-image-2.jpg": "/dyode-technical-assessment/static/media/hero-image-2.3adcc50f.jpg",
     "static/media/mens-image.jpg": "/dyode-technical-assessment/static/media/mens-image.21572e50.jpg",
+    "static/media/App.css": "/dyode-technical-assessment/static/media/pacifico-webfont.befe35bc.eot",
     "static/media/product-image-1.jpg": "/dyode-technical-assessment/static/media/product-image-1.73b1f380.jpg",
     "static/media/slick-theme.css": "/dyode-technical-assessment/static/media/slick.f97e3bbf.svg",
     "static/media/social-1.jpg": "/dyode-technical-assessment/static/media/social-1.2637bbe6.jpg",
@@ -34,7 +35,7 @@
     "static/js/runtime-main.e84e8236.js",
     "static/css/2.cbfc4147.chunk.css",
     "static/js/2.59f3092d.chunk.js",
-    "static/css/main.91168daf.chunk.css",
+    "static/css/main.31952c39.chunk.css",
     "static/js/main.576f5406.chunk.js"
   ]
 }
