@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/dyode-technical-assessment/static/css/main.f2f62643.chunk.css",
-    "main.js": "/dyode-technical-assessment/static/js/main.576f5406.chunk.js",
-    "main.js.map": "/dyode-technical-assessment/static/js/main.576f5406.chunk.js.map",
+    "main.css": "/dyode-technical-assessment/static/css/main.dc249fd8.chunk.css",
+    "main.js": "/dyode-technical-assessment/static/js/main.93253ee9.chunk.js",
+    "main.js.map": "/dyode-technical-assessment/static/js/main.93253ee9.chunk.js.map",
     "runtime-main.js": "/dyode-technical-assessment/static/js/runtime-main.e84e8236.js",
     "runtime-main.js.map": "/dyode-technical-assessment/static/js/runtime-main.e84e8236.js.map",
     "static/css/2.cbfc4147.chunk.css": "/dyode-technical-assessment/static/css/2.cbfc4147.chunk.css",
     "static/js/2.59f3092d.chunk.js": "/dyode-technical-assessment/static/js/2.59f3092d.chunk.js",
     "static/js/2.59f3092d.chunk.js.map": "/dyode-technical-assessment/static/js/2.59f3092d.chunk.js.map",
     "index.html": "/dyode-technical-assessment/index.html",
-    "precache-manifest.9ddf5a93c97000bc97c9bfd2208ccd17.js": "/dyode-technical-assessment/precache-manifest.9ddf5a93c97000bc97c9bfd2208ccd17.js",
+    "precache-manifest.779a175d081f65241320ad5e66138597.js": "/dyode-technical-assessment/precache-manifest.779a175d081f65241320ad5e66138597.js",
     "service-worker.js": "/dyode-technical-assessment/service-worker.js",
     "static/css/2.cbfc4147.chunk.css.map": "/dyode-technical-assessment/static/css/2.cbfc4147.chunk.css.map",
-    "static/css/main.f2f62643.chunk.css.map": "/dyode-technical-assessment/static/css/main.f2f62643.chunk.css.map",
+    "static/css/main.dc249fd8.chunk.css.map": "/dyode-technical-assessment/static/css/main.dc249fd8.chunk.css.map",
     "static/js/2.59f3092d.chunk.js.LICENSE.txt": "/dyode-technical-assessment/static/js/2.59f3092d.chunk.js.LICENSE.txt",
     "static/media/accessories-image-mobile.jpg": "/dyode-technical-assessment/static/media/accessories-image-mobile.b281bf6b.jpg",
     "static/media/accessories-image.jpg": "/dyode-technical-assessment/static/media/accessories-image.3181decb.jpg",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.e84e8236.js",
     "static/css/2.cbfc4147.chunk.css",
     "static/js/2.59f3092d.chunk.js",
-    "static/css/main.f2f62643.chunk.css",
-    "static/js/main.576f5406.chunk.js"
+    "static/css/main.dc249fd8.chunk.css",
+    "static/js/main.93253ee9.chunk.js"
   ]
 }
