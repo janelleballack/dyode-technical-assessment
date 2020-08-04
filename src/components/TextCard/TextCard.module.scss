@@ -36,24 +36,5 @@
 }
 
 .TextCardButton {
-  background: black;
-  color: white;
-  height: 23px;
-  width: 78px;
-  font-family: Lato;
-  font-size: 8px;
-  font-weight: bold;
-  letter-spacing: 0;
-  line-height: 10px;
-  text-align: center;
-  text-transform: uppercase;
-  border: none;
-  appearance: none;
-  margin-top: 20px;
-  @media (min-width: $breakpoint-small) {
-    height: 50px;
-    width: 169px;
-    font-size: 20px;
-    line-height: 24px;
-  }
+  background: $black;
 }

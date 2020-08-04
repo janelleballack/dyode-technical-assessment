@@ -12,7 +12,7 @@ const Hero = () => (
       <div className="HeroInfo">
         <h1 className="HeroTitle">Title Goes Here</h1>
         <h2 className="HeroTagline">Tagline will go right here.</h2>
-        <button className="HeroButton">Shop Now</button>
+        <button className="Button HeroButton">Shop Now</button>
     </div> 
   </div>
 );
