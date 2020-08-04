@@ -471,7 +471,8 @@ ul {
 
 .ImageGrid__image {
   width: 32%;
-  margin: 0 5px; }
+  margin: 0 5px;
+  align-self: center; }
   .ImageGrid__image:first-child {
     margin-left: 0; }
   .ImageGrid__image:last-child {
