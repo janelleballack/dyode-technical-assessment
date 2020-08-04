@@ -1,7 +1,8 @@
 import React from "react";
 
-import { Carousel }  from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 import Aux from '../../hoc/Aux';
 import TextCard from '../TextCard/TextCard';
 
@@ -11,15 +12,26 @@ function HeroCarousel() {
   for(var i = 0; i < times; i++){
     result[i] = <Aux key={i}><TextCard /></Aux>
 }
+
+
+var settings = {
+      arrows: false,
+      dots: true,
+      infinite: false,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      initialSlide: 0,
+      className: "HeroCarousel",
+      customPaging: i => (
+        <button></button>
+      )
+    };
  
   return (
-    <Carousel
-      showThumbs={false} 
-      showStatus={false} 
-      showArrows={false} 
-      className="HeroCarousel">
+    <Slider {...settings}>
       {result }
-    </Carousel>
+    </Slider>
   );
 }
  

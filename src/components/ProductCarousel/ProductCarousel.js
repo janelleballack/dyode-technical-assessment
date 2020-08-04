@@ -13,9 +13,9 @@ const ProductCarousel= () => {
   var slides = Array(times);
   for(var i = 0; i < times; i++){
     slides[i] = <div key={i}><ProductCard /></div>
-}
+  }
  
- const SampleNextArrow = (props) => {
+  const SampleNextArrow = (props) => {
   const { className, onClick } = props;
   return (
     <div
@@ -23,19 +23,19 @@ const ProductCarousel= () => {
       onClick={onClick}> <img src={RightArrow} alt="" />
     </div>
   );
-}
+  }
 
-const SamplePrevArrow = (props) => {
-  const { className, onClick } = props;
-  return (
-    <div
-      className={className}
-      onClick={onClick}><img src={LeftArrow} alt="" />
-    </div>
-  );
-}
+  const SamplePrevArrow = (props) => {
+    const { className, onClick } = props;
+    return (
+      <div
+        className={className}
+        onClick={onClick}><img src={LeftArrow} alt="" />
+      </div>
+    );
+  }
 
-var settings = {
+  var settings = {
       dots: false,
       infinite: false,
       speed: 500,
@@ -44,7 +44,7 @@ var settings = {
       initialSlide: 0,
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
-      className: "Slider",
+      className: "ProductSlider",
       responsive: [
         {
           breakpoint: 1024,
@@ -79,4 +79,3 @@ var settings = {
 }
  
 export default ProductCarousel;
- 

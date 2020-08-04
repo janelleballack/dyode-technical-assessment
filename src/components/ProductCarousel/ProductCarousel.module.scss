@@ -1,4 +1,4 @@
-.ProductCarousel{
+.ProductCarousel {
   & > .container {
      padding: 0 20px;
     @media (min-width: $breakpoint-small) {
@@ -23,28 +23,29 @@
   }
 }
 
-.slick-slider .slick-next,
- .slick-slider .slick-prev {
-    width: 13px;
-    height: 15px;
-    z-index: 1;
-    @media (min-width: $breakpoint-small) {
-      width: 23px;
-      height: 26px;
+.ProductSlider {
+  .ProductSliderArrow-right,
+  .ProductSliderArrow-left {
+      width: 13px;
+      height: 15px;
+      z-index: 1;
+      @media (min-width: $breakpoint-small) {
+        width: 23px;
+        height: 26px;
+      }
+      &::before {
+        display: none;
+      }
     }
-    &::before {
-      display: none;
-    }
+
+  .ProductSliderArrow-right {
+    right: 0;
   }
 
-.slick-slider .slick-next {
-  right: 0;
-}
-
-.slick-slider .slick-prev {
-  left: 0;
-}
-
-.slick-dots {
-  display: none !important;
+  .ProductSliderArrow-left {
+    left: 0;
+  }
+  .slick-dots {
+      display: none !important;
+    }
 }

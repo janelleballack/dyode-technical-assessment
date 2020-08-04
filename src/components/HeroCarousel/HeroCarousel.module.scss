@@ -1,28 +1,28 @@
 .HeroCarousel {
-  & > .carousel .slide {
-    max-height: 638px;
-  }
-  & > .carousel .control-dots {
-      margin-bottom: 12px;
-    @media (min-width: $breakpoint-small){
+  & > .slick-dots {
+    margin-bottom: 12px;
+    @media (min-width: $breakpoint-small) {
       margin-bottom: 34px;
     }
-  & > .dot {
-    border-radius: 0;
-    opacity: 1;
-    width: 12px;
-    height: 12px;
-    box-shadow: none;
-    background-color: rgba(216,216,216,0.7);
-    margin: 0 5px;
-    &.selected {
-      background-color: $white;
+    & li {
+      border-radius: 0;
+      opacity: 1;
+      width: 12px;
+      height: 12px;
+      box-shadow: none;
+      background-color: rgba(216,216,216,0.7);
+      margin: 0 5px;
+      &.slick-active {
+        background-color: $white;
+      }
+      & > button::before {
+        content: '';
+      }
+      @media (min-width: $breakpoint-small) {
+        width: 26px;
+        height: 26px;
+        margin: 0 10px;
+      }
     }
-    @media (min-width: $breakpoint-small){
-      width: 26px;
-      height: 26px;
-      margin: 0 10px;
-    }
-  }
   }
 }

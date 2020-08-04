@@ -40,6 +40,28 @@ ul {
 .show {
   display: block; }
 
+button {
+  background: #000000;
+  color: #FFFFFF;
+  height: 23px;
+  padding: 0 17px;
+  font-size: 8px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  appearance: none;
+  margin-top: 20px; }
+  @media (min-width: 768px) {
+    button {
+      height: 50px;
+      padding: 0 25px;
+      max-width: 169px;
+      font-size: 20px;
+      line-height: 24px; } }
+
 .Topbar {
   background: #000000;
   display: flex;
@@ -152,15 +174,12 @@ ul {
   border-radius: 2.5px;
   margin: 5px auto; }
 
-.HeroCarousel > .carousel .slide {
-  max-height: 638px; }
-
-.HeroCarousel > .carousel .control-dots {
+.HeroCarousel > .slick-dots {
   margin-bottom: 12px; }
   @media (min-width: 768px) {
-    .HeroCarousel > .carousel .control-dots {
+    .HeroCarousel > .slick-dots {
       margin-bottom: 34px; } }
-  .HeroCarousel > .carousel .control-dots > .dot {
+  .HeroCarousel > .slick-dots li {
     border-radius: 0;
     opacity: 1;
     width: 12px;
@@ -168,10 +187,12 @@ ul {
     box-shadow: none;
     background-color: rgba(216, 216, 216, 0.7);
     margin: 0 5px; }
-    .HeroCarousel > .carousel .control-dots > .dot.selected {
+    .HeroCarousel > .slick-dots li.slick-active {
       background-color: #FFFFFF; }
+    .HeroCarousel > .slick-dots li > button::before {
+      content: ''; }
     @media (min-width: 768px) {
-      .HeroCarousel > .carousel .control-dots > .dot {
+      .HeroCarousel > .slick-dots li {
         width: 26px;
         height: 26px;
         margin: 0 10px; } }
@@ -211,26 +232,7 @@ ul {
       line-height: 48px; } }
 
 .TextCardButton {
-  background: black;
-  color: white;
-  height: 23px;
-  width: 78px;
-  font-family: Lato;
-  font-size: 8px;
-  font-weight: bold;
-  letter-spacing: 0;
-  line-height: 10px;
-  text-align: center;
-  text-transform: uppercase;
-  border: none;
-  appearance: none;
-  margin-top: 20px; }
-  @media (min-width: 768px) {
-    .TextCardButton {
-      height: 50px;
-      width: 169px;
-      font-size: 20px;
-      line-height: 24px; } }
+  background: #000000; }
 
 .ThreeUpGrid {
   margin-top: 30px; }
@@ -305,27 +307,27 @@ ul {
       line-height: 65px;
       margin-top: 52px; } }
 
-.slick-slider .slick-next,
-.slick-slider .slick-prev {
+.ProductSlider .ProductSliderArrow-right,
+.ProductSlider .ProductSliderArrow-left {
   width: 13px;
   height: 15px;
   z-index: 1; }
   @media (min-width: 768px) {
-    .slick-slider .slick-next,
-    .slick-slider .slick-prev {
+    .ProductSlider .ProductSliderArrow-right,
+    .ProductSlider .ProductSliderArrow-left {
       width: 23px;
       height: 26px; } }
-  .slick-slider .slick-next::before,
-  .slick-slider .slick-prev::before {
+  .ProductSlider .ProductSliderArrow-right::before,
+  .ProductSlider .ProductSliderArrow-left::before {
     display: none; }
 
-.slick-slider .slick-next {
+.ProductSlider .ProductSliderArrow-right {
   right: 0; }
 
-.slick-slider .slick-prev {
+.ProductSlider .ProductSliderArrow-left {
   left: 0; }
 
-.slick-dots {
+.ProductSlider .slick-dots {
   display: none !important; }
 
 .ProductCard {
@@ -422,26 +424,7 @@ ul {
       line-height: 48px; } }
 
 .HeroButton {
-  background: #10504F;
-  color: white;
-  height: 23px;
-  width: 78px;
-  font-family: Lato;
-  font-size: 8px;
-  font-weight: bold;
-  letter-spacing: 0;
-  line-height: 10px;
-  text-align: center;
-  text-transform: uppercase;
-  border: none;
-  appearance: none;
-  margin-top: 20px; }
-  @media (min-width: 768px) {
-    .HeroButton {
-      height: 50px;
-      width: 169px;
-      font-size: 20px;
-      line-height: 24px; } }
+  background: #10504F; }
 
 .ImageGrid {
   position: relative; }
